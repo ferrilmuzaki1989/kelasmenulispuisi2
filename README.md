@@ -1,89 +1,34 @@
-# Learning management system using Django and Bootstrap
+# Learning management system Made by Ferril Irham Muzaki
 
-### I would love to see you contribute 👩‍💻👩‍💻, feel free to contribute and get awesome GitHub achievements :)
-### Demo video: https://youtu.be/KKIeRXwZ-Sw
-### Setup video: https://youtu.be/gMJfENDEyUs
+Selamat datang di LMS buatan Ferril Irham Muzaki, fitur ini bukan sepenuhnya hasil mengetik code, melainkan mengambil source code dari 15 coder lain yang tersedia di repository gifthub secara gratis
 
-![dj-lms-dashboard](https://user-images.githubusercontent.com/60693922/212262964-5b5f2cb9-59b6-4be8-bf29-63a5265a7a9e.png)
-
-Current features
+Fitur saat ini
 ----------------
-* News And Events
-* The admin can Add Students
-* The admin can Add Lecturers
-* Students can Add and Drop courses
-* Lecturers submit students score (Attendance, Mid exam, Final exam, assignment)
-* The system calculat students Total, Avarage, point, and grade automaticaly
-* Also, the system tells the student whether he/she pass, fail or pass with a warning
-* Assessment result
-* Grade result
-* Upload video and documentations for each course
-* PDF generator for students registration slip and grade result
-* Storing of quiz results under each user
-* Question order randomisation
-* Previous quiz scores can be viewed on category page
-* Correct answers can be shown after each question or all at once at the end
-* Logged in users can return to an incomplete quiz to finish it and non-logged in users can complete a quiz if their session persists
-* The quiz can be limited to one attempt per user
-* Questions can be given a category
-* Success rate for each category can be monitored on a progress page
-* Explanation for each question result can be given
-* Pass marks can be set
-* Multiple choice question type
-* True/False question type
-* Essay question type
-* Custom message displayed for those that pass or fail a quiz
-* Custom permission (view_sittings) added, allowing users with that permission to view quiz results from users
-* A marking page which lists completed quizzes, can be filtered by quiz or user, and is used to mark essay questions
+* Berita Dan Acara
+* Admin dapat Menambah Siswa
+* Admin bisa Tambah Dosen
+* Siswa dapat Menambah dan Menjatuhkan kursus
+* Dosen menyerahkan nilai mahasiswa (Kehadiran, UTS, UAS, Tugas)
+* Sistem menghitung total, rata-rata, poin, dan nilai siswa secara otomatis
+* Selain itu, sistem memberi tahu siswa apakah dia lulus, gagal, atau lulus dengan peringatan
+* Hasil penilaian
+* Hasil nilai
+* Unggah video dan dokumentasi untuk setiap kursus
+* Generator PDF untuk slip pendaftaran siswa dan hasil nilai
+* Menyimpan hasil kuis di bawah setiap pengguna
+* Pengacakan urutan pertanyaan
+* Skor kuis sebelumnya dapat dilihat di halaman kategori
+* Jawaban yang benar dapat ditampilkan setelah setiap pertanyaan atau sekaligus di bagian akhir
+* Pengguna yang masuk dapat kembali ke kuis yang belum selesai untuk menyelesaikannya dan pengguna yang tidak masuk dapat menyelesaikan kuis jika sesi mereka berlanjut
+* Kuis dapat dibatasi untuk satu upaya per pengguna
+* Pertanyaan dapat diberi kategori
+* Tingkat keberhasilan untuk setiap kategori dapat dipantau di halaman kemajuan
+* Penjelasan untuk setiap hasil pertanyaan dapat diberikan
+* Tanda lulus dapat diatur
+* Jenis pertanyaan pilihan ganda
+* Tipe pertanyaan Benar/Salah
+* Jenis pertanyaan esai
+* Pesan khusus ditampilkan untuk mereka yang lulus atau gagal dalam kuis
+* Izin khusus (view_sittings) ditambahkan, memungkinkan pengguna dengan izin tersebut untuk melihat hasil kuis dari pengguna
+* Halaman penandaan yang berisi daftar kuis yang telah diselesaikan, dapat disaring berdasarkan kuis atau pengguna, dan digunakan untuk menandai pertanyaan esai
 
-# Installation
-
-- First Clone the repo with `git clone https://github.com/adilmohak/django-lms.git`
-
-- Create and activate a python virtual environment
-
-- `pip install -r requirements.txt`
-
-- Create `.env` file inside the root directory and include config variables
-- NOTE: Your `.env` file should contain the following variables
-```config
-DB_NAME=[YOUR_DB_NAME]
-DB_USER=[DB_ADMIN_NAME]
-DB_PASSWORD=[DB_PASSWORD]
-DB_HOST=localhost
-DB_PORT=
-USER_EMAIL=[YOUR_EMAIL]
-USER_PASSWORD=[EMAIL_PASSWORD]
-STRIPE_SECRET_KEY=LEAVE_THIS_BLANK_FOR_NOW
-STRIPE_PUBLISHABLE_KEY=LEAVE_THIS_BLANK_FOR_NOW
-```
-
-- `python manage.py makemigrations`
-
-- `python manage.py migrate`
-
-- `python manage.py runserver`
-
-Last but not least, go to this address http://127.0.0.1:8000
-
-### References
-- Quiz part: https://github.com/tomwalker/django_quiz
-
-# Connect with me
-
-<div>
-<a href="https://www.linkedin.com/in/adilmohak" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://github.com/adilmohak" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://stackoverflow.com/users/12872688/adil-mohak" target="_blank">
-<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.facebook.com/adilmohak1" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>
-</div>
-
-# Useful? Give that star ⭐️ a click! 😊
